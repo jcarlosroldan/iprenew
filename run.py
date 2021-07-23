@@ -41,6 +41,7 @@ def main() -> None:
 			except:
 				if attempts == 0:
 					cprint('\tToo many failed attempts. Jumping into the next domain', fg='red')
+					break
 				else:
 					attempts -= 1
 					cprint('\tRetrying after an error', fg='yellow')
