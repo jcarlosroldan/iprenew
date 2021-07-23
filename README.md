@@ -1,12 +1,14 @@
 # Freenom renew
 
-Simple script to renew freenom domains. The usage is pretty simple:
+Simple script to renew freenom domains:
 
 ```sh
 pip install -r requirements.txt
 python3 run.py <IP>
 ```
 
-It will iterate over all of your domains to change the first entry to the given IP. This is the most convenient method for me, as I have just one A record with the desired IP on each domain, and then every other record is a CNAME pointing to that one (such as WWW).
+It goes over all your domains, changing the first record to the given IP.
 
-Feel free to fork it or do a pull request if you want to extend its functionality.
+It is very convenient if you have one first A record with an IP and every other is a CNAME pointing to that one (such as WWW).
+
+Feel free to do a pull request if you want to extend its functionality.
