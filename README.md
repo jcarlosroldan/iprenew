@@ -3,7 +3,7 @@
 Simple script to renew freenom domains:
 
 ```sh
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 run.py <IP>
 ```
 
