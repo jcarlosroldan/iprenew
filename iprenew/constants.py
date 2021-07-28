@@ -1,0 +1,11 @@
+CONFIG = {}
+PATH_CONFIG = 'config.json'
+ATTEMPTS = 5
+
+WAIT_BEFORE_WRITE = .3
+WAIT_BETWEEN_KEYSTROKES = .04
+WAIT_BEFORE_CLICK = .2
+WAIT_BEFORE_HOVER = .2
+WAIT_TIMEOUT = 10
+WAIT_LOAD = 1.5
+WAIT_LOAD_INCREASE = .05  # add a penalty each time a page is loaded
