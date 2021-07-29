@@ -1,6 +1,6 @@
-# Freenom renew
+# IP renew
 
-Simple script to renew freenom domains:
+Simple script to update the IP of my domains that works for freenom and OVH:
 
 ```sh
 pip3 install -r requirements.txt
