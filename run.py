@@ -11,6 +11,7 @@ def main():
 	load_config()
 	ip = get_ip()
 	ovh_renew(ip)
+	freenom_renew(ip)
 
 def load_config() -> None:
 	if exists(PATH_CONFIG):
