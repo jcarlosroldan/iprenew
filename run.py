@@ -2,8 +2,7 @@ from iprenew.constants import CONFIG, PATH_CONFIG
 from iprenew.freenom import freenom_renew
 from iprenew.ovh import ovh_renew
 from os.path import exists, abspath
-from simpler.files import load, save
-from simpler.terminal import cprint
+from simpler import load, save, cprint
 from sys import argv
 from urllib.request import urlopen
 
